@@ -1,0 +1,258 @@
+```html
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Mercer — Links & Writing</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter & Newsreader (for clean blog reading) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Newsreader', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-stone-50 text-stone-900 dark:bg-stone-950 dark:text-stone-100 font-sans antialiased transition-colors duration-300 selection:bg-stone-900 selection:text-white dark:selection:bg-stone-100 dark:selection:text-stone-900">
+
+    <!-- Main Centered Container -->
+    <div class="max-w-xl mx-auto px-5 py-14 sm:py-24">
+        
+        <!-- Profile Header -->
+        <header class="text-center mb-10">
+            <div class="w-24 h-24 mx-auto mb-5 rounded-full p-1 bg-gradient-to-tr from-stone-300 to-stone-100 dark:from-stone-700 dark:to-stone-800 shadow-md">
+                <img 
+                    src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=256&q=80" 
+                    onerror="this.src='https://placehold.co/256x256/292524/fafaf9?text=AM'"
+                    alt="Alex Mercer" 
+                    class="w-full h-full object-cover rounded-full"
+                >
+            </div>
+            <h1 class="text-2xl sm:text-3xl font-bold tracking-tight mb-2">Alex Mercer</h1>
+            <p class="text-stone-600 dark:text-stone-400 text-sm sm:text-base max-w-md mx-auto leading-relaxed">
+                Independent designer, writer, and builder. Exploring minimal interfaces, calm technology, and digital craftsmanship.
+            </p>
+        </header>
+
+        <!-- Clean Link Buttons Section -->
+        <section aria-label="Links" class="space-y-3 mb-14">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="group flex items-center justify-between w-full p-4 rounded-2xl bg-white dark:bg-stone-900 border border-stone-200/90 dark:border-stone-800 hover:border-stone-400 dark:hover:border-stone-600 shadow-sm hover:shadow transition-all active:scale-[0.99]">
+                <div class="flex items-center gap-3.5">
+                    <div class="w-10 h-10 rounded-xl bg-stone-100 dark:bg-stone-800 flex items-center justify-center text-stone-700 dark:text-stone-300 group-hover:scale-105 transition-transform">
+                        <i data-lucide="folder-git-2" class="w-5 h-5"></i>
+                    </div>
+                    <div>
+                        <div class="font-semibold text-sm sm:text-base">Selected Works & Projects</div>
+                        <div class="text-xs text-stone-500 dark:text-stone-400">Open-source tools and design experiments</div>
+                    </div>
+                </div>
+                <i data-lucide="arrow-up-right" class="w-4 h-4 text-stone-400 group-hover:text-stone-900 dark:group-hover:text-white group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all"></i>
+            </a>
+
+            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="group flex items-center justify-between w-full p-4 rounded-2xl bg-white dark:bg-stone-900 border border-stone-200/90 dark:border-stone-800 hover:border-stone-400 dark:hover:border-stone-600 shadow-sm hover:shadow transition-all active:scale-[0.99]">
+                <div class="flex items-center gap-3.5">
+                    <div class="w-10 h-10 rounded-xl bg-stone-100 dark:bg-stone-800 flex items-center justify-center text-stone-700 dark:text-stone-300 group-hover:scale-105 transition-transform">
+                        <i data-lucide="twitter" class="w-5 h-5"></i>
+                    </div>
+                    <div>
+                        <div class="font-semibold text-sm sm:text-base">X / Twitter</div>
+                        <div class="text-xs text-stone-500 dark:text-stone-400">Daily thoughts on design & software</div>
+                    </div>
+                </div>
+                <i data-lucide="arrow-up-right" class="w-4 h-4 text-stone-400 group-hover:text-stone-900 dark:group-hover:text-white group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all"></i>
+            </a>
+
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="group flex items-center justify-between w-full p-4 rounded-2xl bg-white dark:bg-stone-900 border border-stone-200/90 dark:border-stone-800 hover:border-stone-400 dark:hover:border-stone-600 shadow-sm hover:shadow transition-all active:scale-[0.99]">
+                <div class="flex items-center gap-3.5">
+                    <div class="w-10 h-10 rounded-xl bg-stone-100 dark:bg-stone-800 flex items-center justify-center text-stone-700 dark:text-stone-300 group-hover:scale-105 transition-transform">
+                        <i data-lucide="youtube" class="w-5 h-5"></i>
+                    </div>
+                    <div>
+                        <div class="font-semibold text-sm sm:text-base">Video Essays</div>
+                        <div class="text-xs text-stone-500 dark:text-stone-400">Deep dives into minimalist product design</div>
+                    </div>
+                </div>
+                <i data-lucide="arrow-up-right" class="w-4 h-4 text-stone-400 group-hover:text-stone-900 dark:group-hover:text-white group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all"></i>
+            </a>
+
+            <a href="mailto:hello@example.com" class="group flex items-center justify-between w-full p-4 rounded-2xl bg-white dark:bg-stone-900 border border-stone-200/90 dark:border-stone-800 hover:border-stone-400 dark:hover:border-stone-600 shadow-sm hover:shadow transition-all active:scale-[0.99]">
+                <div class="flex items-center gap-3.5">
+                    <div class="w-10 h-10 rounded-xl bg-stone-100 dark:bg-stone-800 flex items-center justify-center text-stone-700 dark:text-stone-300 group-hover:scale-105 transition-transform">
+                        <i data-lucide="mail" class="w-5 h-5"></i>
+                    </div>
+                    <div>
+                        <div class="font-semibold text-sm sm:text-base">Say Hello</div>
+                        <div class="text-xs text-stone-500 dark:text-stone-400">hello@alexmercer.design</div>
+                    </div>
+                </div>
+                <i data-lucide="arrow-up-right" class="w-4 h-4 text-stone-400 group-hover:text-stone-900 dark:group-hover:text-white group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all"></i>
+            </a>
+        </section>
+
+        <!-- Divider -->
+        <div class="border-t border-stone-200 dark:border-stone-800 my-10"></div>
+
+        <!-- Blog Writings Section -->
+        <section aria-label="Writings">
+            <div class="flex items-center justify-between mb-6">
+                <h2 class="text-lg font-bold tracking-tight">Recent Writing</h2>
+                <span class="text-xs font-medium text-stone-500 dark:text-stone-400" id="post-count">3 essays</span>
+            </div>
+
+            <!-- Blog Posts Container -->
+            <div id="blog-list" class="space-y-4">
+                <!-- Posts rendered by JS -->
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Article Reader Modal (Clean Reading View) -->
+    <div id="reader-modal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 sm:p-6 bg-stone-950/60 backdrop-blur-sm">
+        <div class="w-full max-w-2xl max-h-[85vh] overflow-y-auto rounded-3xl bg-white dark:bg-stone-900 border border-stone-200 dark:border-stone-800 p-6 sm:p-10 shadow-2xl relative">
+            <div class="flex items-center justify-between mb-6 pb-4 border-b border-stone-100 dark:border-stone-800">
+                <span id="reader-meta" class="text-xs font-medium text-stone-500 dark:text-stone-400"></span>
+                <button onclick="closeReader()" aria-label="Close Article" class="p-2 rounded-full bg-stone-100 dark:bg-stone-800 text-stone-600 dark:text-stone-300 hover:bg-stone-200 dark:hover:bg-stone-700 transition-colors">
+                    <i data-lucide="x" class="w-4 h-4"></i>
+                </button>
+            </div>
+            
+            <article>
+                <h2 id="reader-title" class="text-2xl sm:text-3xl font-bold tracking-tight mb-6 leading-snug"></h2>
+                <div id="reader-content" class="font-serif text-lg text-stone-700 dark:text-stone-300 leading-relaxed space-y-4">
+                    <!-- Article paragraphs injected here -->
+                </div>
+            </article>
+        </div>
+    </div>
+
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // 1. Automatic System Dark / Light Mode
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.documentElement.classList.add('dark');
+        }
+
+        // 2. Blog Writings Data (Easily add or edit your writings here)
+        const blogPosts = [
+            {
+                id: 1,
+                title: "In Praise of Simple Websites",
+                date: "Nov 14, 2026",
+                readTime: "3 min read",
+                excerpt: "Why stripping away logins, popups, and heavy frameworks creates a calmer, faster web for everyone.",
+                content: [
+                    "Somewhere along the way, the personal website turned into a miniature SaaS application. We added cookie banners, newsletter popups, account walls, and megabytes of tracking scripts just to share a few links and paragraphs.",
+                    "A good website should feel like a quiet room. When someone visits your corner of the internet, they shouldn't have to close three modals before reading a single sentence.",
+                    "By focusing on clean typography, fast load times, and direct links, we respect the reader's time and attention. Simplicity isn't the absence of thought—it's the removal of everything unnecessary."
+                ]
+            },
+            {
+                id: 2,
+                title: "Designing for Calmness",
+                date: "Oct 28, 2026",
+                readTime: "4 min read",
+                excerpt: "How subtle contrast, generous whitespace, and predictable interactions reduce digital fatigue.",
+                content: [
+                    "Most modern software competes aggressively for our attention using bright red badges, infinite feeds, and constant notifications. Calm design takes the opposite approach.",
+                    "Whitespace is not empty space; it is breathing room for the eyes. Generous padding and clear visual hierarchy allow a reader to process information naturally without feeling overwhelmed.",
+                    "When we build tools and pages that stay out of the way, people actually enjoy returning to them."
+                ]
+            },
+            {
+                id: 3,
+                title: "Notes on Writing Every Week",
+                date: "Oct 09, 2026",
+                readTime: "2 min read",
+                excerpt: "What happens to your clarity of thought when you commit to publishing small essays regularly.",
+                content: [
+                    "Writing is the sharpest tool for discovering what you actually think. Ideas that feel complete in your head often reveal their gaps the moment you try to put them into sentences.",
+                    "You don't need to write a masterpiece every week. Short, honest notes about what you're learning, building, or noticing are more than enough.",
+                    "Over months and years, those small notes compound into a living archive of your curiosity."
+                ]
+            }
+        ];
+
+        // 3. Render Blog List
+        const blogListEl = document.getElementById('blog-list');
+        document.getElementById('post-count').textContent = `${blogPosts.length} essays`;
+
+        blogListEl.innerHTML = blogPosts.map(post => `
+            <article onclick="openReader(${post.id})" class="cursor-pointer group p-5 rounded-2xl bg-white dark:bg-stone-900 border border-stone-200/90 dark:border-stone-800 hover:border-stone-400 dark:hover:border-stone-600 shadow-sm hover:shadow transition-all">
+                <div class="flex items-center gap-2 text-xs text-stone-500 dark:text-stone-400 mb-2">
+                    <span>${post.date}</span>
+                    <span>•</span>
+                    <span>${post.readTime}</span>
+                </div>
+                <h3 class="text-base sm:text-lg font-bold mb-1.5 group-hover:underline underline-offset-4">
+                    ${post.title}
+                </h3>
+                <p class="text-sm text-stone-600 dark:text-stone-400 leading-relaxed mb-3">
+                    ${post.excerpt}
+                </p>
+                <span class="inline-flex items-center gap-1 text-xs font-semibold text-stone-900 dark:text-stone-200">
+                    Read essay
+                    <i data-lucide="arrow-right" class="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform"></i>
+                </span>
+            </article>
+        `).join('');
+
+        lucide.createIcons();
+
+        // 4. Article Reader Modal Functions
+        const readerModal = document.getElementById('reader-modal');
+        const readerMeta = document.getElementById('reader-meta');
+        const readerTitle = document.getElementById('reader-title');
+        const readerContent = document.getElementById('reader-content');
+
+        function openReader(postId) {
+            const post = blogPosts.find(p => p.id === postId);
+            if (!post) return;
+
+            readerMeta.textContent = `${post.date}  •  ${post.readTime}`;
+            readerTitle.textContent = post.title;
+            readerContent.innerHTML = post.content.map(p => `<p>${p}</p>`).join('');
+
+            readerModal.classList.remove('hidden');
+            readerModal.classList.add('flex');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeReader() {
+            readerModal.classList.add('hidden');
+            readerModal.classList.remove('flex');
+            document.body.style.overflow = '';
+        }
+
+        // Close modal when clicking outside the card
+        readerModal.addEventListener('click', (e) => {
+            if (e.target === readerModal) closeReader();
+        });
+
+        // Close modal on Escape key
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && !readerModal.classList.contains('hidden')) {
+                closeReader();
+            }
+        });
+    </script>
+</body>
+</html>
+```
